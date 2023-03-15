@@ -1,0 +1,29 @@
+$selectionColor: #23a6d5;
+$pagecolor: rgb(13, 16, 36);
+// $headerBackgroundColor
+
+// Core
+@import 'core/mixins';
+@import 'core/reset';
+@import 'core/fonts';
+@import 'core/base';
+
+// Parts
+@import 'parts/page';
+@import 'parts/header';
+@import 'parts/cards';
+@import 'parts/players';
+@import 'parts/line';
+@import 'parts/companys';
+@import 'parts/footer';
+@import 'parts/mobile';
+
+
+
+
+
+
+
+
+
+

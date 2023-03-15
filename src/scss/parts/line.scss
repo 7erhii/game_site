@@ -1,0 +1,131 @@
+.line {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   padding-top: 40px;
+   overflow: hidden;
+}
+
+.dashed__line {
+   width: 100%;
+   margin: 15px 0;
+   border: none;
+   height: 2px;
+   background-image: linear-gradient(to right, rgb(255, 255, 255) 50%, transparent 50%),
+                     linear-gradient(to right, transparent 5px, rgb(32, 129, 226) 5px);
+   background-position: 0 0, 0 1px;
+   background-size: 50% 0%, 30px 100%;
+   background-repeat: repeat-x;
+}
+
+.runing__line {
+   display: flex;
+   width: 100%;
+   height: 100px;
+   background-color: rgb(32, 129, 226);
+}
+
+
+
+
+.runing__line-text {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   color: #fff;
+   font-size: 46px;
+   white-space: nowrap;
+   animation: text 4s infinite linear;
+   
+}
+
+// .runing__line-text::after {
+//    content: 'SOL NFT WEEKLY JACKPOT / WEEKLY ';
+// }
+
+
+.runing__line span {
+   color: rgb(32, 129, 226);
+   text-shadow: rgb(255, 255, 255) 1px 0 0px, rgb(255, 255, 255) 0 1px 0px, rgb(255, 255, 255) -1px 0 0px, rgb(255, 255, 255) 0 -1px 0px;
+   margin: 20px;
+}
+
+
+@keyframes text {
+   0% {
+      transform: translateX(0)
+   }
+   100% {
+      transform: translateX(-33.333%)
+   }
+}
+
+
+
+
+
+
+// .runing__line-text-white {
+//    text-align:center;
+//    color:#fff;
+//    font-size: 46px;
+//    white-space: nowrap;
+
+
+   // text-transform: uppercase;
+   // padding-top: 35px;
+   // animation: text 2s infinite linear;
+   // padding-left: 100%;
+   // white-space: nowrap;
+   // font-size: 46px;
+   // animation-delay: 3s;
+// }
+
+// .runing__line-text-opasity {
+//    text-align:center;
+//    color: rgb(32, 129, 226);
+//    text-transform: uppercase;
+//    white-space: nowrap;
+//    font-size: 46px;
+//    text-shadow: rgb(255, 255, 255) 1px 0 0px, rgb(255, 255, 255) 0 1px 0px, rgb(255, 255, 255) -1px 0 0px, rgb(255, 255, 255) 0 -1px 0px;
+
+   // text-align:center;
+   // color: rgb(32, 129, 226);
+   // text-transform: uppercase;
+   // padding-top: 35px;
+   // animation: text 2s infinite linear;
+   // padding-left: 100%;
+   // white-space: nowrap;
+   // font-size: 46px;
+   // text-shadow: rgb(255, 255, 255) 1px 0 0px, rgb(255, 255, 255) 0 1px 0px, rgb(255, 255, 255) -1px 0 0px, rgb(255, 255, 255) 0 -1px 0px;
+
+// }
+
+// @keyframes text {
+//    0%{
+//       transform: translate(0, 0);
+//    }
+   
+//    100%{
+//       transform: translate(-160%, 0);
+//    }
+// }
+
+
+// .block {
+//    width: 100%;
+//    height: 40px;
+//    // margin: 40px;
+//    margin-bottom: 40px;
+//    margin-top: 40px;
+//    // background-color: rgb(98, 92, 84);
+//    border: none;
+//    height: 2px;
+//    background-image: linear-gradient(to right, rgb(255, 255, 255) 50%, transparent 50%),
+//                      linear-gradient(to right, transparent 5px, rgb(32, 129, 226) 5px);
+//    background-position: 0 0, 0 1px;
+//    background-size: 50% 0%, 30px 100%;
+//    background-repeat: repeat-x;
+   
+// }
+

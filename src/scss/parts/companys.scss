@@ -1,0 +1,32 @@
+.company {
+   display: flex;
+   width: 100%;
+   padding: 100px 0;
+   overflow: hidden;
+}
+
+.company__logo {
+   width: 100%;
+   display: flex;
+   flex-wrap: nowrap;
+   height: fit-content;
+   justify-content: space-between;
+   padding: 0 20px;
+   
+   animation: companyLogos 4s infinite linear;
+
+   white-space: nowrap;
+   &-image {
+      margin: 0 20px;
+   }
+}
+
+@keyframes companyLogos {
+   0% {
+      transform: translateX(-1175px)
+   }
+   100% {
+      transform: translateX(0px)
+   }
+}
+

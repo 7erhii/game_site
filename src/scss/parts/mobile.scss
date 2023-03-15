@@ -1,0 +1,176 @@
+@media screen and (max-width: 830px) {
+
+
+   
+   .header__content {
+      flex-direction: column; // ____
+      height: 200px; // ______-
+      background-color: rgba(255, 255, 255, 0.06);
+      padding: 20px 10px; // ________
+      width: 100%;
+      justify-content: space-between; // ________
+      justify-items: center;
+   }
+
+
+   .header__value {
+      flex-direction: column; // _______
+   }
+   
+   .header__value-content {
+      margin-left: 15px; // ____________
+    }
+    
+    .header__value-data {
+      margin-left: 0px; // _______
+    }
+    
+    
+    
+    .header__input-form {
+      margin-top: 20px; // ____________
+      margin-right: 0px; // ________
+    }
+
+
+
+
+// __________________PLAYS ________________
+
+.wrapper {
+   padding: 20px 15px;
+}
+
+
+.players__title {
+   font-size: 18px; // ____________
+}
+
+.recentPlays {
+   padding: 0 6px; // __________
+   font-size: 12px; // ____________
+   
+}
+
+.playResault {
+   display: flex;
+   align-items: center;
+}
+
+
+
+
+.company {
+   display: flex;
+   width: 100%;
+   padding: 100px 0;
+   
+}
+
+// .company__logo {
+//    width: 100%;
+//    display: flex;
+//    flex-wrap: nowrap;
+//    height: fit-content;
+//    justify-content: space-between;
+//    padding: 0 20px;
+
+//    animation: companyLogos 4s infinite linear;
+//    animation-direction: alternate;
+
+//    white-space: nowrap;
+
+//    gap: 30px;
+// }
+
+// @keyframes companyLogos {
+//    0% {
+//       transform: translateX(0)
+//    }
+//    100% {
+//       // transform: translateX(-100%)
+//    }
+// }
+
+
+
+// __________________________FOOTER
+
+.footer__logo {
+   display: none; // ______
+}
+
+
+.footer__content {
+   
+   width: 100%;
+   padding: 40px 10px;
+}
+
+.footer__block {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer__descr {
+   display: flex;
+   flex-direction: column;
+   font-size: 12px;
+   color: #fff;
+   gap: 15px; // ______
+   max-width: 20%;
+}
+
+
+
+.support {
+   margin-right: 0px; // ________
+}
+   /* … */
+}
+
+@media screen and (max-width: 415px) {
+   .header__value-data {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+   }
+
+   .header__content {
+      height: 220px;
+      margin: 20px auto;
+      border-radius: 0px;
+    }
+
+    .wrapper {
+      padding: 10px;
+    }
+
+    .card__item {
+      width: 300px;
+    }
+
+    .card__content {
+      padding: 10px;
+      height: 84%;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card__img {}
+
+    .card__background img {
+      width: 300px;
+    }
+    .play {
+      position: relative;
+    }
+
+    .playTime {
+      position: absolute;
+      // display: none;
+      top: 5px;
+      left:50%;
+      transform: translate(-50%);
+    }
+}

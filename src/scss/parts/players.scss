@@ -1,0 +1,88 @@
+.play {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.426);
+}
+
+.players {
+   // margin: 0 auto;
+   width: 100%;
+}
+
+.plaers__content {
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+.players__title {
+   font-size: 37px;
+   color: #fff;
+   padding-bottom: 40px;
+   border-bottom: 2px solid rgba(255, 255, 255, 0.379);
+}
+
+.recentPlays {
+   padding: 0 12px;
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
+   color: #fff;
+   opacity: 0.7;
+   font-size: 17px;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.698);
+   
+
+}
+
+.playResault {
+   display: flex;
+   margin: 20px 0;
+   // width: 100%;
+   // display: flex;
+   // align-items: center;
+
+   
+}
+
+.gamevaluta {
+   display: flex;
+   align-items: center;
+   margin-right: 4px;
+}
+
+.gamevaluta img {
+   display: flex;
+   align-items: center;
+   margin: 0 4px;
+}
+
+.useerImage {
+   margin: 0 4px;
+}
+
+.useerImage img {
+   vertical-align: middle;
+}
+
+.userName {
+   margin-right: 4px;
+}
+
+.gameStatus {
+   margin-right: 4px;
+}
+
+.gameAmount {
+   margin-right: 4px;
+}
+
+.gamevaluta {
+   // margin-right: 4px;
+}
+
+.playTime {
+   display: flex;
+   align-items: center;
+   // text-align: center;
+}

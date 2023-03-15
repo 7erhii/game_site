@@ -1,0 +1,21 @@
+header.header 
+  .header__content 
+    .header__logo
+      +image('logo.svg')
+    .header__value
+      .header__value-data 
+        .header__value-content
+          .header__value-img 
+            +image('solanaHeader.png')
+          .header__value-data 
+            p 1 SOL = $23.08
+        .header__value-content
+          .header__value-img 
+            +image('ligtning.png')
+          .header__value-data 
+            p 1TPS = $240
+      .header__value-form
+        form.header__input-form
+          .custom-input
+            input(type="text" placeholder="Search Partners")
+              

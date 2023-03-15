@@ -1,0 +1,31 @@
+footer {
+   border-top: 1px solid rgba(255, 255, 255, 0.437);
+
+}
+
+.footer__content {
+   
+   width: 100%;
+   padding: 86px 15px;
+}
+
+.footer__block {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer__descr {
+   display: flex;
+   flex-direction: column;
+   font-size: 15px;
+   color: #fff;
+   gap: 15px;
+}
+
+.footer__descr a {
+   color: rgba(255, 255, 255, 0.388);
+}
+
+.support {
+   margin-right: 40px;
+}
